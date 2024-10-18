@@ -1,0 +1,7 @@
+services:
+  prometheus:
+    network_mode: "host"
+    image: prom/prometheus
+    volumes:
+      - ./data:/prometheus
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml

@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 60s
+  scrape_timeout: 10s
+  evaluation_interval: 1m
+scrape_configs: 
+  - job_name: gamedig_exporter0
+    static_configs:
+    - targets: ['127.0.0.1:3000']

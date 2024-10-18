@@ -1,0 +1,80 @@
+# https://github.com/gamedig/node-gamedig/blob/master/GAMES_LIST.md
+
+- type: "csgo"
+  serverId: "nw-csgo-casual-1"
+  host: "10.6.18.120"
+
+- type: "csgo"
+  serverId: "nw-csgo-casual-2"
+  host: "10.6.18.121"
+
+- type: "counterstrike16"
+  serverId: "nw-cstrike-snosk337"
+  host: "10.10.10.122"
+
+- type: "garrysmod"
+  serverId: "nw-garrysmod-prophunt"
+  host: "10.6.18.123"
+
+- type: "teamfortress2"
+  serverId: "nw-tf2-casual"
+  host: "10.10.10.124"
+
+- type: "palworld"
+  serverId: "nw-palworld"
+  host: "10.6.18.126"
+
+- type: "rust"
+  serverId: "nw-rust"
+  host: "10.6.18.127"
+  port: 28016 # the query port, not game port
+
+- type: "l4d2"
+  serverId: "nw-l4d2"
+  host: "10.6.18.128"
+
+# 10.10.10.129 | connect | connect
+
+- type: "minecraft"
+  serverId: "nw-minecraft"
+  host: "10.10.10.130"
+
+- type: "counterstrike2"
+  serverId: "nw-cs2-casual-1"
+  host: "10.10.10.131"
+
+- type: "counterstrike2"
+  serverId: "nw-cs2-casual-2"
+  host: "10.10.10.132"
+
+- type: "unrealtournament2004"
+  serverId: "nw-ut2004"
+  host: "10.6.18.133"
+
+- type: "satisfactory"
+  serverId: "nw-satisfactory"
+  host: "10.10.10.134"
+
+- type: "counterstrike2"
+  serverId: "nw-cs2-scrim-1"
+  host: "10.10.10.136"
+
+- type: "counterstrike2"
+  serverId: "nw-cs2-scrim-2"
+  host: "10.10.10.137"
+
+
+## Local test servers 
+
+- type: "satisfactory"
+  serverId: "vvk-satisfactory"
+  host: "10.6.18.224"
+
+- type: "rust"
+  serverId: "vvk-rust"
+  host: "10.6.18.224"
+  port: 28016 # the query port, not game port
+
+- type: "counterstrike2"
+  serverId: "nw-cs2-pub"
+  host: "game.netwar.org"
